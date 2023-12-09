@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haven_Travels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar-left">
+                <h1>Haven_Travels</h1>
+            </div>
+            <div class="navbar-right">
+                <input type="text" placeholder="Search">
+                <a href="#Home.html">Home</a>
+                <a href="#Destinations.html">Destinations</a>
+                <a href="#Tavel_packages.html">Travel Packages</a>
+                <a href="#about.html">About Us</a>
+                <a href="#Contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="background-image">
+                <div class="text-overlay">
+                    <h1 id="changing-title">Travel for Knowledge</h1>
+                    <b><p>Welcome to <span>Haven_Travels</span>,your doorway to extraordinary journeys and unforgatable destinations. Immerse yourself in the beauty of our curated locations,each offering its own unique blend of culture, adventure and serenity.</p></b>
+                </div>
+            </div>
+            <div class="bar">Book now></div>
+
+            <div class="locations">
+                <div class="location1">
+                    <h2>Gokarna</h2>
+                    <b><p>Gokarna is a coastal town known for its pristine beaches and religious significance. It offers a blend of spirituality and natural beauty, with attractions like Om Beach, Kudle Beach, and Mahabaleshwar Temple.</p></b>
+                    <b><button>Book Now</button></b>
+                </div>
+                <div class="location2">
+                    <h2>Badami</h2>
+                    <b><p>This historical town is famous for its rock-cut cave temples dating back to the 6th century. Badami showcases intricate carvings, sandstone cliffs, and ancient architecture, making it a significant archaeological site.</p></b>
+                    <b><button>Book Now</button></b>
+                </div>
+                <div class="location3">
+                    <h2>Chikmagalur</h2>
+                    <b><p>Nestled in the Western Ghats, Chikmagalur is a picturesque hill station renowned for its coffee estates, scenic landscapes, and trekking trails. It's an ideal destination for adventure enthusiasts and nature admirers.</p></b>
+                    <b><button>Book Now</button></b>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Haven_Travels. All rights reserved.</p>
+        </div>
+    </footer>
+   
+    
+    <script>
+        // Array of changing words
+        const changingWords = ["Knowledge", "Fun", "Adventure", "Exploration", "Discovery"];
+        let index = 0;
+    
+        // Function to change the title
+        function changeTitle() {
+            document.getElementById("changing-title").textContent = `Travel for ${changingWords[index]}`;
+            index = (index + 1) % changingWords.length;
+        }
+    
+        // Change the title every 1 second
+        setInterval(changeTitle, 1500);
+    </script>
+    
+</body>
+</html>
