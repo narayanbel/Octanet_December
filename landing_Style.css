@@ -1,0 +1,182 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.navbar-left h1 {
+    margin: 0;
+}
+
+.navbar-right a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    background-color: #6e58af;
+    padding: 8px 10px;
+    border-radius: 7px;
+
+}
+.navbar-right a:hover{
+    color: #ce5d5d;
+    background-color: #eeedf1;
+}
+
+.navbar-right input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    height: 800px; 
+    margin-bottom: 0%;
+}
+
+.locations {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location1 {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url("sea.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.location2 p{
+    color: #eeedf1;
+  
+} 
+.location2 {
+    width: 30%;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #1a1a1a;
+    border-radius: 5px;
+    background-image: url("Badami.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.location3 {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.location h2 {
+    margin-top: 0;
+}
+
+.location button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: #299873;
+    color: rgb(240, 240, 219);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(123, 229, 102);
+}
+
+button:hover{
+    background-color: #6e58af;
+    color: rgb(229, 225, 234);
+}
+.text-overlay{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+.text-overlay h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0 , 0, 0.5);
+    color: rgb(181, 139, 220);
+    cursor: pointer;
+}
+
+.text-overlay p{
+    font-size: 1.2em;
+    margin-top: 0;
+    color: #ce5d5d;
+}
+
+.footer-content p{
+    margin: 0;
+}
+footer{
+    background-color: rgb(26, 7, 7);
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.bar{
+    background-color: #574a82;
+    color: #251f1f;
+    font-size: larger;
+    padding: 20px 20px;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 5px;
+}
+.bar:hover{
+    background-color: #6e58af;
+    color:rgb(123, 229, 102);
+}
